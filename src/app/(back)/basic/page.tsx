@@ -13,7 +13,7 @@ export default function Basic() {
   }
 
   return (
-    <div className="min-h-screen flex justify-center items-center">
+    <main className="min-h-screen flex justify-center items-center">
       <article className="prose">
         <form className="form-control gap-4" onSubmit={handleSubmit(onSubmit)}>
           <div className="form-control">
@@ -33,6 +33,6 @@ export default function Basic() {
             </button>
         </form>
       </article>
-    </div>
+    </main>
   )
 }
